@@ -78,8 +78,8 @@ const CONTACT_INFO = [
   },
   {
     label: "Location",
-    value: "Bhiwandi, Maharashtra, India",
-    href: "https://maps.google.com/?q=Bhiwandi,Maharashtra,India",
+    value: "Kalyan, MH",
+    href: "https://maps.google.com/?q=Kalyan,Maharashtra,India",
     icon: (
       <svg
         width="20"

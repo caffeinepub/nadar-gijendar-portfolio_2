@@ -197,7 +197,7 @@ export default function About() {
                   color: "rgba(255,255,255,0.65)",
                 }}
               >
-                📍 Bhiwandi, Maharashtra, India —{" "}
+                📍 Kalyan, MH —{" "}
                 <strong style={{ color: "#22c55e" }}>
                   Open to opportunities
                 </strong>
