@@ -1,6 +1,6 @@
-import AOS from "aos";
 import { useEffect, useState } from "react";
-import "aos/dist/aos.css";
+import AOS from "./lib/aos-shim";
+import "./lib/aos-shim.css";
 import { Toaster } from "@/components/ui/sonner";
 
 import About from "./components/About";

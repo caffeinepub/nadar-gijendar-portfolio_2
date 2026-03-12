@@ -285,7 +285,7 @@ export default function Hero() {
             <span>View Projects →</span>
           </button>
           <a
-            href="/assets/Nadar_Gijendar_Resume.pdf"
+            href="/assets/uploads/Nadar_Gijendar_Resume-2-1.pdf"
             download="Nadar_Gijendar_Resume.pdf"
             aria-label="Download Resume PDF"
             className="btn-glass"

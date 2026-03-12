@@ -1,0 +1,39 @@
+/* AOS shim — base + animation styles */
+[data-aos] {
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition-timing-function: ease-out-cubic,
+    cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-duration: 800ms;
+  pointer-events: none;
+}
+[data-aos].aos-animate {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+/* fade-up */
+[data-aos="fade-up"] {
+  transform: translateY(40px);
+}
+[data-aos="fade-up"].aos-animate {
+  transform: translateY(0);
+}
+
+/* fade-down */
+[data-aos="fade-down"] {
+  transform: translateY(-40px);
+}
+/* fade-left */
+[data-aos="fade-left"] {
+  transform: translateX(40px);
+}
+/* fade-right */
+[data-aos="fade-right"] {
+  transform: translateX(-40px);
+}
+/* zoom-in */
+[data-aos="zoom-in"] {
+  transform: scale(0.85);
+}
